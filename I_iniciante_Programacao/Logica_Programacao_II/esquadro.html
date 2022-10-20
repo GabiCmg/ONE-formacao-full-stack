@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Esquadros</title>
+    </head>
+    <body>
+        <!-- esquadro.html -->
+
+        <canvas width="1800" height="1000"></canvas>
+
+        <script>
+
+            var tela = document.querySelector('canvas');
+            var pincel = tela.getContext('2d');
+
+            function desenhaEsquadro(xa, ya, xc, yc, corLinha, corCentro){
+
+                //  Esquadro MAIOR
+                pincel.fillStyle = corLinha;
+                pincel.beginPath();
+                pincel.moveTo(xa, ya);
+                pincel.lineTo(xc, yc);
+                pincel.lineTo(xa, yc);
+                pincel.fill();
+
+                //  Esquadro MENOR
+                pincel.fillStyle = corCentro;
+                pincel.beginPath();
+                pincel.moveTo(xa + 50, ya + 125);
+                pincel.lineTo(xc - 125, yc - 50);
+                pincel.lineTo(xa + 50, yc - 50);
+                pincel.fill();
+
+                /* 
+                // Resolução do Instrutor
+                pincel.fillStyle = 'white'
+                pincel.beginPath();
+                pincel.moveTo((6*xa + xc)/7, (9*ya + 5*yc)/14);
+                pincel.lineTo((6*xa + xc)/7, (ya + 6*yc)/7);
+                pincel.lineTo((5*xa + 9*xc)/14, (ya + 6*yc)/7);
+                pincel.fill();
+                */
+
+            }
+
+            desenhaEsquadro(50, 50, 400, 400, 'lightblue', 'white');
+            desenhaEsquadro(450, 50, 800, 400, 'pink', 'white');
+
+        </script>
+    </body>
+</html>

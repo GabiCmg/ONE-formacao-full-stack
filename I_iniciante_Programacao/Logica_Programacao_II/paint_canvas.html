@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mude o tamanho da bolinha</title>
+    </head>
+    <body>
+        <canvas style = "margin-left: 25rem; margin-top: 8rem;" width="600" height="400"></canvas>
+        <br>
+        <p style = "margin-left: 25rem;">Escolha uma cor <input type="color" id="escolhaCor"></p>
+
+        <script>
+            var tela = document.querySelector('canvas');
+            var pincel = tela.getContext('2d');
+
+            pincel.fillStyle = 'lightgrey';
+            pincel.fillRect(0, 0, 600, 400);
+
+            var desenha = false;
+            var cor = document.getElementById('escolhaCor');
+            // var cor = document.querySelector('input.value');
+
+            function desenhaCirculo(evento) {
+
+                if(desenha) {
+                    var x = evento.pageX - tela.offsetLeft;
+                    var y = evento.pageY - tela.offsetTop;
+                    pincel.fillStyle = cor.value;
+                    pincel.beginPath();
+                    pincel.arc(x, y, 10, 0, 4 * 3.14);
+                    pincel.fill();
+                }
+
+                console.log(x + ',' + y);
+            }
+
+            //  Trabalhando com FUNÇÕES ANÔNIMAS
+
+            tela.onmousedown = function() {
+            desenha = true;
+            }
+
+            tela.onmouseup = function() {
+            desenha = false;
+            }
+
+            tela.onmousemove = desenhaCirculo;
+
+            /*
+            function habilitaDesenhar() {
+
+            desenha = true;
+            }
+
+            function desabilitaDesenhar() {
+
+            desenha = false;
+            }
+
+            tela.onmousedown = habilitaDesenhar;
+
+            tela.onmouseup = desabilitaDesenhar;
+
+            tela.onmousemove = desenhaCirculo;
+            */
+
+        </script>
+    </body>
+</html>

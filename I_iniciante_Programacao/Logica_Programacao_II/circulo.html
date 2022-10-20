@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenhando flores</title>
+</head>
+<body>
+    <canvas width="600" height="400"> </canvas>
+
+    <script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+    pincel.fillStyle = 'lightgray';
+    pincel.fillRect(0, 0, 600, 400);
+
+    function desenhaCirculo(x, y, raio, cor) {
+
+        pincel.fillStyle = cor;
+        pincel.beginPath();
+        pincel.arc(x, y, raio, 0, 2*3.14);
+        pincel.fill();
+    }    
+
+    
+    // desenhaCirculo(300, 200, 20, 'red');
+    // desenhaCirculo(300, 160, 20, 'yellow');
+    // desenhaCirculo(300, 240, 20, 'blue');
+    // desenhaCirculo(260, 200, 20, 'orange');
+    // desenhaCirculo(340, 200, 20, 'black');
+
+    function desenhaFlor(x, y) {
+
+        desenhaCirculo(x, y+20, 10, 'blue');
+        desenhaCirculo(x, y, 10, 'red');
+        desenhaCirculo(x, y-20, 10, 'yellow');
+        desenhaCirculo(x-20, y, 10, 'orange');
+        desenhaCirculo(x+20, y, 10, 'black');
+    }
+
+    desenhaFlor(300, 200);
+    desenhaFlor(200, 100);
+    desenhaFlor(400, 300);
+    desenhaFlor(200, 300);
+    desenhaFlor(400, 100);
+
+    </script>
+<<<<<<< HEAD
+</body>
+=======
+</body>
+>>>>>>> e767d1bcb768bb4c0c481614bf1a43df33a25f0d

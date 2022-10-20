@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa 04</title>
+</head>
+
+<body>
+
+    <canvas width="600" height="400"> </canvas>
+
+    <script>
+
+        var tela = document.querySelector('canvas');
+        var pincel = tela.getContext('2d');
+        pincel.fillStyle = 'lightgrey';
+        pincel.fillRect(0, 0, 600, 400);
+
+        function desenhaCirculo(x, y, raio, cor){
+
+            pincel.fillStyle = cor;
+            pincel.beginPath();
+            pincel.arc(x, y, raio, 0, 2 * Math.PI);
+            pincel.fill();
+
+        }
+
+        function limpaTela(){
+
+            pincel.clearRect(0, 0, 600, 400);
+
+        }
+
+        function atualizaTela(){
+
+            limpaTela();
+
+            if( x > 600) {
+                sentido = -1
+            } else if (x < 0) {
+                sentido = 1;
+            } 
+
+            if(raio > 30) {
+            // o raio tem que diminuir
+                fatorCrescimento = -1;
+            } else if (raio < 20) {
+            // o raio tem que aumentar
+                fatorCrescimento = 1;
+            }
+
+            raio = raio + fatorCrescimento;
+
+            desenhaCirculo(x, 50, raio, 'red');
+            
+            x = x + sentido; 
+        }
+
+        var x = 20;
+        
+        var sentido = 1;
+
+        setInterval(atualizaTela, 50); 
+        
+        var raio = 19;
+
+        // Ainda não sabemos qual fator usar. Precisamos saber consultando o tamanho atual do raio
+        var fatorCrescimento = 0;
+
+    </script>
+
+</body>
+
+</html>

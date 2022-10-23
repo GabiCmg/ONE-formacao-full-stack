@@ -30,7 +30,9 @@
   </ul>
 </div>
 
-<div>
+<hr>
+
+<div align="right">
   <a href="https://www.oracle.com/br/education/oracle-next-education/">
     <img width="100" src="https://www.oracle.com/a/ocom/img/rh03-one-v-black-br.png">
   </a>

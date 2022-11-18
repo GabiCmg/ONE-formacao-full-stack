@@ -17,14 +17,14 @@
   <ul>
     <li><b>💻 Módulo: </b>
       <ul>
-        <li>📂<a href="https://github.com/GabiCmg/ONE-formacao-full-stack/tree/main/I_iniciante_Programacao">I. Lógica de programação </a></li>
-        <li>📂<a href="https://github.com/GabiCmg/ONE-formacao-full-stack/tree/main/II_formacao_Front-End">II. Front-end </a></li>
-        <li>📂<a href="#">III. Java </a> [não iniciado]</li>
+        <li>📂<a href="https://github.com/GabiCmg/ONE-formacao-full-stack/tree/main/I_iniciante_Programacao">  I. Lógica de programação </a></li>
+        <li>📂<a href="https://github.com/GabiCmg/ONE-formacao-full-stack/tree/main/II_formacao_Front-End">  II. Front-end </a></li>
+        <li>📂<a href="#">  III. Java </a> [não iniciado]</li>
       </ul>
     </li>
     <li><b>🔋 Desafio: </b>
       <ul>
-        <li>🔐<a href="https://github.com/GabiCmg/CriptografiaONE">Decodificador</a></li>
+        <li>🔐<a href="https://github.com/GabiCmg/CriptografiaONE">  Decodificador</a></li>
       </ul>
     </li>
   </ul>

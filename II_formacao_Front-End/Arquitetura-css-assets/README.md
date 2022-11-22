@@ -9,40 +9,37 @@ Separamos a estilização de uma página por partes
 ## Metodologia Atomic Design
 
 Criamos uma pasta ou arquivos para cada elemento/componente da nossa página. Nos ajuda organizar e mapear a estrutura do nosso CSS.
-
-### Estrutura
-
 A estrutura de uma página é composta por diferentes elementos que são organizados em etapas. Nomeamos essas etapas como:
 
-#### Átomo
+### Átomo
 
 Representa as tags html individualmente. Na imagem abaixo, são átomos: label, input, button.
 
 ![atomo](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/atomo.png?w=300)
 
-#### Molécula
+### Molécula
 
 Quando juntamos diversos átomos, formamos uma molécula. 
 
-![molecula](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/molecula.png)
+![molecula](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/molecula.png?w=300)
 
-#### Organismo
+## Organismo
 
 São junções de diversas moléculas diferentes.
 
-![organismo](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/organismo.png)
+![organismo](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/organismo.png?w=300)
 
-#### Templates
+### Templates
 
 São junções de diferentes organismos. No exemplo abaixo é possível mapear o cabeçalho, o banner e a descrição do site - pode estar em lorem por representar uma página -, cada composto nomeado é um organismo.
 
-![template](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/template.png)
+![template](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/template.png?w=300)
 
-#### Páginas
+### Páginas
 
 Por fim, as páginas são conjuntos das fases anteriores e diferente do template, suas informações são **reais** e bem construídas com textos e imagens verdadeiros.
 
-![pagina](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/pagina.png)
+![pagina](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/pagina.png?w=300)
 
 ---
 

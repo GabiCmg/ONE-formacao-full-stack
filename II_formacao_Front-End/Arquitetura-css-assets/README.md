@@ -11,31 +11,31 @@ Separamos a estilização de uma página por partes
 Criamos uma pasta ou arquivos para cada elemento/componente da nossa página. Nos ajuda organizar e mapear a estrutura do nosso CSS.
 A estrutura de uma página é composta por diferentes elementos que são organizados em etapas. Nomeamos essas etapas como:
 
-### Átomo
+### I. Átomo
 
 Representa as tags html individualmente. Na imagem abaixo, são átomos: label, input, button.
 
 ![atomo](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/atomo.png?w=250)
 
-### Molécula
+### II. Molécula
 
 Quando juntamos diversos átomos, formamos uma molécula. 
 
 ![molecula](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/molecula.png?w=250)
 
-## Organismo
+### III. Organismo
 
 São junções de diversas moléculas diferentes.
 
 ![organismo](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/organismo.png?w=250)
 
-### Templates
+### IV. Templates
 
 São junções de diferentes organismos. No exemplo abaixo é possível mapear o cabeçalho, o banner e a descrição do site - pode estar em lorem por representar uma página -, cada composto nomeado é um organismo.
 
 ![template](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/template.png?w=250)
 
-### Páginas
+### V. Páginas
 
 Por fim, as páginas são conjuntos das fases anteriores e diferente do template, suas informações são **reais** e bem construídas com textos e imagens verdadeiros.
 

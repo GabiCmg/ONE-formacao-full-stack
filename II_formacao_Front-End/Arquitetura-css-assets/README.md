@@ -18,31 +18,31 @@ A estrutura de uma página é composta por diferentes elementos que são organiz
 
 Representa as tags html individualmente. Na imagem abaixo, são átomos: label, input, button.
 
-![atomo](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/atomo.png?raw=true)
+![atomo](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/atomo.png)
 
 #### Molécula
 
 Quando juntamos diversos átomos, formamos uma molécula. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6086f04-846b-40a9-b1d1-be1ef0d5600d/Untitled.png)
+![molecula](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/molecula.png)
 
 #### Organismo
 
 São junções de diversas moléculas diferentes.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fa7de7a4-d468-49e8-b592-f35a55855812/Untitled.png)
+![organismo](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/organismo.png)
 
 #### Templates
 
 São junções de diferentes organismos. No exemplo abaixo é possível mapear o cabeçalho, o banner e a descrição do site - pode estar em lorem por representar uma página -, cada composto nomeado é um organismo.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5c04088-0062-43ac-bcbb-11c95e6a6b42/Untitled.png)
+![template](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/template.png)
 
 #### Páginas
 
 Por fim, as páginas são conjuntos das fases anteriores e diferente do template, suas informações são **reais** e bem construídas com textos e imagens verdadeiros.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eea45565-a505-4c8d-82a8-dcefb6c667f9/Untitled.png)
+![pagina](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/pagina.png)
 
 ---
 

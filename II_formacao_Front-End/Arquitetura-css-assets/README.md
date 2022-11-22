@@ -18,7 +18,7 @@ A estrutura de uma página é composta por diferentes elementos que são organiz
 
 Representa as tags html individualmente. Na imagem abaixo, são átomos: label, input, button.
 
-![atomo](./assets/img/readme/atomo)
+![atomo](II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/atomo.png)
 
 #### Molécula
 

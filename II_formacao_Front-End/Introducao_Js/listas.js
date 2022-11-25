@@ -7,7 +7,7 @@ console.log("Trabalhando com listas");
 const listaDeDestinos = new Array(
     "Salvador",
     "São Paulo",
-    "Rio de Janeiro",
+    "Rio de Janeiro"
 );
 
 // Adiciona um item na lista, "empurra" um novo valor
@@ -22,3 +22,5 @@ console.log(listaDeDestinos [1]);
 // quantidade de itens apagado a partir desse indicação)
 listaDeDestinos.splice( 2, 1);
 console.log(listaDeDestinos);
+
+console.log(listaDeDestinos[1], listaDeDestinos[0]);

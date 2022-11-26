@@ -23,10 +23,10 @@ let contador = 0;
 let destinoExiste = false;
 while ( contador < listaDeDestinos.length) {
     
-    if (listaDeDestinos[contador] = destino) {
+    if (listaDeDestinos[contador] == destino) {
         console.log("Destino existe.");
         destinoExiste = true;
-        break;
+        break; 
 
     } else {
         console.log("Destino não existe.");
@@ -37,3 +37,16 @@ while ( contador < listaDeDestinos.length) {
 }
 
 console.log("Destino existe:", destinoExiste);
+
+if (podeComprar && destinoExiste) {
+    console.log("Boa Viagem!");
+} else {
+    console.log("Desculpe, tivemos um erro!");
+}
+
+for ( let i = 0 ; i < listaDeDestinos.length ; i++) {  
+    if (listaDeDestinos[i] == destino) {
+        destinoExiste = true;
+        break;
+    } 
+}

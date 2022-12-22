@@ -15,31 +15,31 @@ A estrutura de uma página é composta por diferentes elementos que são organiz
 
 Representa as tags html individualmente. Na imagem abaixo, são átomos: label, input, button.
 
-![atomo](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/atomo.png?w=250)
+![atomo](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/adfcf7f17f36f15446437f3d4e4de7b0c8beca7b/II_formacao_Front-End/Arquitetura_css_assets/assets/img/readme/atomo.png?w=250)
 
 ### II. Molécula
 
 Quando juntamos diversos átomos, formamos uma molécula. 
 
-![molecula](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/molecula.png?w=250)
+![molecula](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/adfcf7f17f36f15446437f3d4e4de7b0c8beca7b/II_formacao_Front-End/Arquitetura_css_assets/assets/img/readme/molecula.png?w=250)
 
 ### III. Organismo
 
 São junções de diversas moléculas diferentes.
 
-![organismo](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/organismo.png?w=250)
+![organismo](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/adfcf7f17f36f15446437f3d4e4de7b0c8beca7b/II_formacao_Front-End/Arquitetura_css_assets/assets/img/readme/organismo.png?w=250)
 
 ### IV. Templates
 
 São junções de diferentes organismos. No exemplo abaixo é possível mapear o cabeçalho, o banner e a descrição do site - pode estar em lorem por representar uma página -, cada composto nomeado é um organismo.
 
-![template](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/template.png?w=250)
+![template](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/adfcf7f17f36f15446437f3d4e4de7b0c8beca7b/II_formacao_Front-End/Arquitetura_css_assets/assets/img/readme/template.png?w=250)
 
 ### V. Páginas
 
 Por fim, as páginas são conjuntos das fases anteriores e diferente do template, suas informações são **reais** e bem construídas com textos e imagens verdadeiros.
 
-![pagina](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/main/II_formacao_Front-End/Arquitetura-css-assets/assets/img/readme/pagina.png?w=250)
+![pagina](https://github.com/GabiCmg/ONE-formacao-full-stack/blob/26e151e53ba78e28fca12f7bfb7aeb5b87b6b3f9/II_formacao_Front-End/Arquitetura_css_assets/assets/img/readme/pagina.png?w=250)
 
 ---
 

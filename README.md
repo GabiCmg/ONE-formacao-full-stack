@@ -25,6 +25,7 @@
     <li><b>🔋 Desafio: </b>
       <ul>
         <li>🔐<a href="https://github.com/GabiCmg/CriptografiaONE">  Decodificador</a></li>
+        <li>☠<a href="https://github.com/GabiCmg/jogoForcaONE">  Jogo da Forca</a></li>
       </ul>
     </li>
   </ul>

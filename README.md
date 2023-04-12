@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Programa ONE - Oracle Nex Education</h1>
-  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20INTERROMPIDO&color=RED&style=for-the-badge"/>
 </div>
 
 <br>
